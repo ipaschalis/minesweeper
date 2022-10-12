@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="391.0" prefWidth="304.0" style="-fx-background-color: #6B7D7D;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.paschalis.PrimaryController">
+   <children>
+      <VBox layoutX="17.0" layoutY="107.0" prefHeight="210.0" prefWidth="225.0" style="-fx-background-color: #8EAF9D;">
+         <children>
+            <HBox prefHeight="25.0" prefWidth="298.0">
+               <children>
+                  <Button fx:id="r1b1" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r1b2" layoutX="10.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r1b3" layoutX="35.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r1b4" layoutX="60.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r1b5" layoutX="110.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r1b6" layoutX="160.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r1b7" layoutX="185.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r1b8" layoutX="85.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r1b9" layoutX="135.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="298.0">
+               <children>
+                  <Button fx:id="r2b1" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r2b2" layoutX="10.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r2b3" layoutX="35.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r2b4" layoutX="60.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r2b5" layoutX="85.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r2b6" layoutX="110.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r2b7" layoutX="135.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r2b8" layoutX="160.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r2b9" layoutX="185.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="298.0">
+               <children>
+                  <Button fx:id="r3b1" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r3b2" layoutX="10.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r3b3" layoutX="35.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r3b4" layoutX="60.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r3b5" layoutX="85.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r3b6" layoutX="110.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r3b7" layoutX="135.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r3b8" layoutX="160.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r3b9" layoutX="185.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="298.0">
+               <children>
+                  <Button fx:id="r4b1" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r4b2" layoutX="10.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r4b3" layoutX="35.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r4b4" layoutX="60.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r4b5" layoutX="85.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r4b6" layoutX="110.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r4b7" layoutX="135.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r4b8" layoutX="160.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r4b9" layoutX="185.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="298.0">
+               <children>
+                  <Button fx:id="r5b1" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r5b2" layoutX="10.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r5b3" layoutX="35.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r5b4" layoutX="60.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r5b5" layoutX="85.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r5b6" layoutX="110.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r5b7" layoutX="135.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r5b8" layoutX="160.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r5b9" layoutX="185.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="298.0">
+               <children>
+                  <Button fx:id="r6b1" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r6b2" layoutX="10.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r6b3" layoutX="35.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r6b4" layoutX="60.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r6b5" layoutX="85.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r6b6" layoutX="110.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r6b7" layoutX="135.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r6b8" layoutX="160.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r6b9" layoutX="185.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="298.0">
+               <children>
+                  <Button fx:id="r7b1" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r7b2" layoutX="10.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r7b3" layoutX="35.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r7b4" layoutX="60.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r7b5" layoutX="85.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r7b6" layoutX="110.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r7b7" layoutX="135.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r7b8" layoutX="160.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r7b9" layoutX="185.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="298.0">
+               <children>
+                  <Button fx:id="r8b1" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r8b2" layoutX="10.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r8b3" layoutX="35.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r8b4" layoutX="60.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r8b5" layoutX="85.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r8b6" layoutX="110.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r8b7" layoutX="135.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r8b8" layoutX="160.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r8b9" layoutX="185.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="25.0" prefWidth="298.0">
+               <children>
+                  <Button fx:id="r9b1" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r9b2" layoutX="10.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r9b3" layoutX="35.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r9b4" layoutX="60.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r9b5" layoutX="85.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r9b6" layoutX="110.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r9b7" layoutX="135.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r9b8" layoutX="160.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+                  <Button fx:id="r9b9" layoutX="185.0" layoutY="10.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" mnemonicParsing="false" onAction="#checkifmine" prefHeight="30.0" prefWidth="30.0" text="?" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button layoutX="17.0" layoutY="64.0" mnemonicParsing="false" onAction="#restartGame" style="-fx-background-color: #B9CDDA;" text="Επαναφορά " />
+      <Label fx:id="Score" layoutX="114.0" layoutY="40.0" text="Score: 0" />
+      <Label fx:id="MaxScore" layoutX="17.0" layoutY="40.0" text="Max score: 0" />
+      <Button fx:id="sm" layoutX="107.0" layoutY="64.0" mnemonicParsing="false" onAction="#togleFlag" style="-fx-background-color: #B9CDDA;" text="Σημάδεψε ναρκη " />
+      <Label fx:id="HasLostLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="102.0" layoutY="14.0" prefHeight="17.0" prefWidth="100.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
