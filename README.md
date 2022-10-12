@@ -7,7 +7,7 @@ The assignment was graded with 7/10
 
 #Screenshots:
 
-![](./pictures/Capture5.PNG) 
-![](./pictures/Capture8.PNG)
-![p](./pictures/Capture6.PNG)
-![](./pictures/Capture7.PNG)
+![](./pictures/Capture5.png) 
+![](./pictures/Capture8.png)
+![p](./pictures/Capture6.png)
+![](./pictures/Capture7.png)
